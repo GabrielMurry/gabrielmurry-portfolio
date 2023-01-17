@@ -15,7 +15,7 @@ const Projects = () => {
                 Projects
             </p>
             <h2 className='py-4'>
-                What I've Built
+                Past Projects
             </h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
