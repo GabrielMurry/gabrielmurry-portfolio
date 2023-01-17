@@ -50,10 +50,6 @@ const Navbar = () => {
     <div style={{backgroundColor: `${navBG}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          {/* <Image 
-            src={navLogo} 
-            alt="/" 
-          /> */}
           <h2 className='font-yellowtail'>
             Portfolio
           </h2>
@@ -109,7 +105,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image src={navLogo} alt='/' width={87} height={35} />
+                <Image unoptimized={true} src={navLogo} alt='/' width={87} height={35} />
               </Link>
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose />
