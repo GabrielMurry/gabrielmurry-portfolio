@@ -3,15 +3,15 @@ import Link from 'next/link'
 import React from 'react'
 import wordleImage from '../../public/assets/projects/wordle.jpg'
 import chessImage from '../../public/assets/projects/chess.jpg'
-import netflixImage from '../../public/assets/projects/netflix.jpg'
-import twitchImage from '../../public/assets/projects/twitch.jpg'
+import mapRouterImage from '../../public/assets/projects/mapRouter.jpg'
+import sudokuSolverImage from '../../public/assets/projects/sudokuSolver.jpg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <p className='text-xl traciing-widest uppercase text-[#5651e5]'>
+            <p className='text-xl traciing-widest uppercase text-[#5394f6]'>
                 Projects
             </p>
             <h2 className='py-4'>
@@ -22,26 +22,26 @@ const Projects = () => {
                 <ProjectItem 
                     title='Wordle Clone' 
                     backgroundImage={wordleImage} 
-                    techUsed='React JS'
+                    techUsed='M.E.R.N. Stack'
                     projectUrl='/wordle' 
                 />
                 <ProjectItem 
                     title='Chess AI' 
                     backgroundImage={chessImage} 
-                    techUsed='React JS'
+                    techUsed='JavaScript'
                     projectUrl='/chess' 
                 />
                 <ProjectItem 
-                    title='Netflix App' 
-                    backgroundImage={netflixImage} 
+                    title='Map Router' 
+                    backgroundImage={mapRouterImage} 
                     techUsed='React JS'
-                    projectUrl='/netflix' 
+                    projectUrl='/mapRouter' 
                 />
                 <ProjectItem 
-                    title='Twitch App' 
-                    backgroundImage={twitchImage} 
-                    techUsed='React JS'
-                    projectUrl='/twitch' 
+                    title='Sudoku Solver' 
+                    backgroundImage={sudokuSolverImage} 
+                    techUsed='JavaScript / CSS / HTML'
+                    projectUrl='/sudokuSolver' 
                 />
 
             </div>

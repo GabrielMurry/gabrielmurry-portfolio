@@ -2,33 +2,53 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { useRouter } from 'next/router'
 
 const Main = () => {
+    const router = useRouter()
+
   return (
     <div id='home' className='w-full h-screen text-center'>
         <div className='w-full h-full max-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>
-                    Let us Build Something Together
+                <p className='uppercase text-sm tracking-widest text-gray-600 dark:text-gray-100'>
+                    Let's Build Something Together
                 </p>
-                <h1 className='py-4 text-gray-700'>
-                    Hi, I am <span className='text-[#5651e5]'> Gabriel </span>
+                <h1 className='py-4 text-gray-700 dark:text-gray-100'>
+                    Hi, I'm <span className='text-[#5394f6]'> Gabriel </span>
                 </h1>
-                <h1 className='py-2 text-gray-700'>
+                <h1 className='py-2 text-gray-700 dark:text-gray-100'>
                     Software Engineer
                 </h1>
-                <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint repudiandae dolore neque aperiam at! Magni in, voluptas, dolorem sint officia culpa inventore quod molestias minima omnis dolor incidunt cupiditate. Doloremque!
+                <p className='pt-4 text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100'>
+                    Designing, programming, and contributing to projects centering UI with a user-first approach. Currently learning full-stack development with an emphasis on backend. 
+                </p>
+                <p className='text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100'>
+                    This portfolio was built using <a href="https://nextjs.org" className='font-semibold group font-inter relative inline-flex overflow-hidden'>
+                        <div className='absolute bg-[#5394f6]/50 dark:bg-[#5394f6] inset-0 translate-y-5 group-hover:translate-y-0 transition duration-100 ease-out'></div>
+                        <span className='relative'>
+                            Next.js
+                        </span>
+                    </a> and <a href="https://tailwindcss.com" className='font-semibold group font-inter relative inline-flex overflow-hidden'>
+                        <div className='absolute bg-[#5394f6]/50 dark:bg-[#5394f6] inset-0 translate-y-5 group-hover:translate-y-0 transition duration-100 ease-out'></div>
+                        <span className='relative'>
+                            Tailwind CSS.
+                        </span>
+                    </a>
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn />
+                        <a href="https://www.linkedin.com/in/gabrielmurry">
+                            <FaLinkedinIn />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub />
+                        <a href="https://github.com/GabrielMurry">
+                            <FaGithub />
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
+                        <AiOutlineMail onClick={() => router.push('mailto:gabrielmurry.work@gmail.com')} />
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />

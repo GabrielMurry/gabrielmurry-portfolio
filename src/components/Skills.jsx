@@ -10,13 +10,14 @@ import pythonImage from '../../public/assets/skills/python.png'
 import nodeImage from '../../public/assets/skills/node.png'
 import githubImage from '../../public/assets/skills/github1.png'
 import mongodbImage from '../../public/assets/skills/mongo.png'
-import firebaseImage from '../../public/assets/skills/firebase.png'
+import nextjsImage from '../../public/assets/skills/nextjs.png'
+import rImage from '../../public/assets/skills/r.png'
 
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+            <p className='text-xl tracking-widest uppercase text-[#5394f6]'>
                 Skills
             </p>
             <h2 className='py-4'>
@@ -24,134 +25,146 @@ const Skills = () => {
             </h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={htmlImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 HTML
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={cssImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 CSS
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={javascriptImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 JavaScript
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={reactImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 React
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={tailwindImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 Tailwind
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={cplusplusImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 C++
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={pythonImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 Python
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={nodeImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 Node
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={githubImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 Github
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={mongodbImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
+                            <h3 className='dark:text-black'>
                                 MongoDB
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={firebaseImage} alt='/' width={64} height={64} />
+                            <Image src={nextjsImage} alt='/' width={64} height={64} />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>
-                                Firebase
+                            <h3 className='dark:text-black'>
+                                Next
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={rImage} alt='/' width={64} height={64} />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3 className='dark:text-black'>
+                                R
                             </h3>
                         </div>
                     </div>

@@ -7,9 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        yellowtail: "'Yellowtail', serif",
+        yellowtail: ["Yellowtail"],
       },
     },
   },
+  darkMode: "class",
   plugins: [],
 };
