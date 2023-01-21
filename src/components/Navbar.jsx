@@ -153,7 +153,7 @@ const Navbar = () => {
               <h2 style={{color: `${navBG === 'transparent' ? 'white' : ''}`}} className='font-yellowtail' >
                 Portfolio
               </h2>
-              <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
+              <div onClick={handleNav} className='sm:visible invisible rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>
             </div>
@@ -188,28 +188,28 @@ const Navbar = () => {
                 </a>
                 </li>
             </ul>
-            <div className='pt-36'>
+            <div className='pt-[3rem]'>
               <p className='uppercase tracking-widest text-[#5394f6] font-bold'>
                 Let&apos;s Connect
               </p>
               <div className='my-4 w-full'>
                 <div className='flex gap-5 my-5 justify-center'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-7 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <a href="https://www.linkedin.com/in/gabrielmurry">
                         <FaLinkedinIn />
                     </a>
                   </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-7 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <a href="https://github.com/GabrielMurry">
                         <FaGithub />
                     </a>
                   </div>
                 </div>
                 <div className='flex gap-5 justify-center'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-7 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                       <AiOutlineMail onClick={() => router.push('mailto:gabrielmurry.work@gmail.com')} />
                   </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-7 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 sm:p-8 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <BsFillPersonLinesFill />
                   </div>
                 </div>

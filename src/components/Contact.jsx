@@ -101,7 +101,9 @@ const Contact = () => {
                                     <AiOutlineMail onClick={() => router.push('mailto:gabrielmurry.work@gmail.com')} />
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
+                                    <a href="/assets/resume.pdf" >
+                                        <BsFillPersonLinesFill />
+                                    </a>
                                 </div>
                             </div>
                         </div>
