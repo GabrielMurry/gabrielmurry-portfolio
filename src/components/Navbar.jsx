@@ -38,7 +38,7 @@ const Navbar = () => {
       setNavBG('#ecf0f3')
       setLinkColor('#1f2937')
     }
-  }, [router, theme])
+  }, [router, theme, systemTheme])
 
   useEffect(() => {
     setMounted(true)
@@ -190,7 +190,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-36'>
               <p className='uppercase tracking-widest text-[#5394f6] font-bold'>
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className='my-4 w-full'>
                 <div className='flex gap-5 my-5 justify-center'>

@@ -79,7 +79,7 @@ const Contact = () => {
                                 Software Engineer
                             </p>
                             <p className='py-4'>
-                                Reach out and let's chat!
+                                Reach out and let&apos;s chat!
                             </p>
                         </div>
                         <div>

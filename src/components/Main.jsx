@@ -11,11 +11,8 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='w-full h-full max-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600 dark:text-gray-100'>
-                    Let's Build Something Together
-                </p>
                 <h1 className='py-4 text-gray-700 dark:text-gray-100'>
-                    Hi, I'm <span className='text-[#5394f6]'> Gabriel </span>
+                    Hi, I&apos;m <span className='text-[#5394f6]'> Gabriel </span>
                 </h1>
                 <h1 className='py-2 text-gray-700 dark:text-gray-100'>
                     Software Engineer

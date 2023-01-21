@@ -30,7 +30,7 @@ const property = () => {
                     Overview
                 </h2>
                 <p>
-                    A map routing program that provides the fastest route to a destination given real-time traffic flow and incident updates. I utilized the Tom-Tom Map SDK and API for fast and efficient matrix routing. The biggest challenge was synthesizing technical documentation for the SDK maps and services to build an efficient router and for handling errors. For the future, I will include a "time to reach destination" from your current location for both a car and on foot. I will also add a better UI and a more efficient way to search for a location.
+                    A map routing program that provides the fastest route to a destination given real-time traffic flow and incident updates. I utilized the Tom-Tom Map SDK and API for fast and efficient matrix routing. The biggest challenge was synthesizing technical documentation for the SDK maps and services to build an efficient router and for handling errors. For the future, I will include a time to reach destination from your current location for both a car and on foot. I will also add a better UI and a more efficient way to search for a location.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
                     <a href='https://map-router.vercel.app'>
