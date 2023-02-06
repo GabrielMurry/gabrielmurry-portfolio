@@ -5,7 +5,7 @@ import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 import { BsArrowLeft } from 'react-icons/bs'
 
-const property = () => {
+const mapRouter = () => {
   return (
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -73,4 +73,4 @@ const property = () => {
   )
 }
 
-export default property
+export default mapRouter

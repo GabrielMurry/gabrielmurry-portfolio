@@ -5,7 +5,7 @@ import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 import { BsArrowLeft } from 'react-icons/bs'
 
-const property = () => {
+const sudokuSolver = () => {
 
   return (
     <div className='w-full'>
@@ -86,4 +86,4 @@ const property = () => {
   )
 }
 
-export default property
+export default sudokuSolver
