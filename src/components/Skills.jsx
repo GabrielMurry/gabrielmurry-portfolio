@@ -12,6 +12,9 @@ import githubImage from '../../public/assets/skills/github1.png'
 import mongodbImage from '../../public/assets/skills/mongo.png'
 import nextjsImage from '../../public/assets/skills/nextjs.png'
 import rImage from '../../public/assets/skills/r.png'
+import graphqlImage from '../../public/assets/skills/graphql.png'
+import apolloImage from '../../public/assets/skills/apollo.png'
+import bootstrapImage from '../../public/assets/skills/bootstrap.png'
 
 const Skills = () => {
   return (
@@ -165,6 +168,42 @@ const Skills = () => {
                         <div className='flex flex-col items-center justify-center'>
                             <h3 className='dark:text-black'>
                                 R
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={graphqlImage} alt='/' width={64} height={64} />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3 className='dark:text-black'>
+                                GraphQL
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={apolloImage} alt='/' width={64} height={64} />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3 className='dark:text-black'>
+                                Apollo
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-[#e7eef4] dark:shadow-gray-100/30'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={bootstrapImage} alt='/' width={64} height={64} />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3 className='dark:text-black'>
+                                Bootstrap
                             </h3>
                         </div>
                     </div>

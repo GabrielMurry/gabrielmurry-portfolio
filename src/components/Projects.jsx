@@ -5,6 +5,7 @@ import wordleImage from '../../public/assets/projects/wordle.jpg'
 import chessImage from '../../public/assets/projects/chess.jpg'
 import mapRouterImage from '../../public/assets/projects/mapRouter.jpg'
 import sudokuSolverImage from '../../public/assets/projects/sudokuSolver.jpg'
+import projectManagerImage from '../../public/assets/projects/projectManager.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -24,6 +25,12 @@ const Projects = () => {
                     backgroundImage={wordleImage} 
                     techUsed='M.E.R.N. Stack'
                     projectUrl='/wordle' 
+                />
+                <ProjectItem 
+                    title='Project Manager' 
+                    backgroundImage={projectManagerImage} 
+                    techUsed='M.E.R.N. Stack'
+                    projectUrl='/projectManager' 
                 />
                 <ProjectItem 
                     title='Chess AI' 
