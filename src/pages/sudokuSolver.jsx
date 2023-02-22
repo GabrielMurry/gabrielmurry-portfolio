@@ -31,12 +31,12 @@ const sudokuSolver = () => {
                     The purpose of this project was to dip my toes into APIs. I used a public API from RapidAPI and my own hidden key to send requests of inputted values on the sudoku board and receive a response of the solution that fills the remaining empty squares on the board. For user accessibility, I built a replica sudoku board for users to input values. I learned how to gather join that inputted data to send to our backend using the API, receive a response and display those solution values back on the grid.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href='https://sudoku-solver-pied.vercel.app'>
+                    <a href='https://solvethesudoku.vercel.app/'>
                         Demo
                     </a>
                 </button>
                 <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/GabrielMurry/Sudoku-solver">
+                    <a href="https://github.com/GabrielMurry/sudoku-solver-frontend">
                         Code
                     </a>
                 </button>
