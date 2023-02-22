@@ -24,10 +24,7 @@ const sudokuSolver = () => {
 
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
-                <p>
-                    Project
-                </p>
-                <h2>
+                <h2 className='mb-2'>
                     Overview
                 </h2>
                 <p>
@@ -43,6 +40,9 @@ const sudokuSolver = () => {
                         Code
                     </a>
                 </button>
+                <Link href='/#projects'>
+                    <BsArrowLeft size={60} className='shadow-xl shadow-gray-400 rounded-xl p-4 mt-10' />
+                </Link> 
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>  
@@ -77,9 +77,6 @@ const sudokuSolver = () => {
                     </div>
                 </div>
             </div>
-            <Link href='/#projects'>
-                <BsArrowLeft size={60} className='shadow-xl shadow-gray-400 rounded-xl p-4' />
-            </Link> 
         </div>
 
     </div>

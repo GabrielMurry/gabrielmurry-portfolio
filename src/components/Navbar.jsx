@@ -25,7 +25,8 @@ const Navbar = () => {
       router.asPath === '/wordle' ||
       router.asPath === '/chess' ||
       router.asPath === '/mapRouter' ||
-      router.asPath === '/sudokuSolver'
+      router.asPath === '/sudokuSolver' ||
+      router.asPath === '/projectManager'
     ) {
       setNavBG('transparent')
       setLinkColor('#ecf0f3')

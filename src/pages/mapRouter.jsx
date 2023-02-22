@@ -23,14 +23,11 @@ const mapRouter = () => {
 
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
-                <p>
-                    Project
-                </p>
-                <h2>
+                <h2 className='mb-2'>
                     Overview
                 </h2>
                 <p>
-                    A map routing program that provides the fastest route to a destination given real-time traffic flow and incident updates. I utilized the Tom-Tom Map SDK and API for fast and efficient matrix routing. The biggest challenge was synthesizing technical documentation for the SDK maps and services to build an efficient router and for handling errors. For the future, I will include a time to reach destination from your current location for both a car and on foot. I will also add a better UI and a more efficient way to search for a location.
+                    A map routing program that provides the fastest route to a destination given real-time traffic flow and incident updates. I utilized the Tom-Tom Map SDK and API for fast and efficient matrix routing. Tom-Tom&apos;s API requires latitude and longitude. I originally had the user input the specific latitude and longitude of the location they wanted. However, this was highly inefficient and not user friendly. Instead, I implemented a geocode address converter from Rapid API that takes in any address or location request and responds with the latitude and longitude of that location. I then used that latitude and longitude response in Tom-Tom&apos;s API request query to output that given location on the map. Both Tom-Tom the and Rapid API keys are hidden as buildtime environment variables in Vercel. The biggest challenge was synthesizing technical documentation for the SDK maps and services to build an efficient router and for handling errors. For the future, I will include a time to reach destination from your current location for both a car and on foot. 
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'>
                     <a href='https://map-router.vercel.app'>
@@ -42,6 +39,9 @@ const mapRouter = () => {
                         Code
                     </a>
                 </button>
+                <Link href='/#projects'>
+                    <BsArrowLeft size={60} className='shadow-xl shadow-gray-400 rounded-xl p-4 mt-10' />
+                </Link> 
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>  
@@ -61,12 +61,12 @@ const mapRouter = () => {
                         <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
                             <RiRadioButtonFill className='pr-1' /> TomTom
                         </p>
+                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
+                            <RiRadioButtonFill className='pr-1' /> Rapid API
+                        </p>
                     </div>
                 </div>
             </div>
-            <Link href='/#projects'>
-                <BsArrowLeft size={60} className='shadow-xl shadow-gray-400 rounded-xl p-4' />
-            </Link> 
         </div>
 
     </div>
