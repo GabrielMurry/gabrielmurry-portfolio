@@ -22,7 +22,7 @@ const ContactModal = ({ onClose }) => {
         }
     }
 
-    const handleContactSubmit = (e) => {
+    const handleContactSubmit = async (e) => {
         e.preventDefault()
         // check if required input fields are blank (form input field built-in properties not working). And check if the email is valid
         if (!name || !email || !message || !/^[a-zA-Z0-9]+\.?(?:[a-zA-Z0-9])+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/.test(email)) {
@@ -51,25 +51,48 @@ const ContactModal = ({ onClose }) => {
             message,
         }
 
-        fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then((res) => {
-            console.log('Response received')
-            if (res.status === 200) {
-                console.log('Response succeeded!')
-                setName('')
-                setEmail('')
-                setSubject('')
-                setMessage('')
-                setIsLoading(false)
-                setIsSent(true)
-            }
-        })
+        try {
+            await fetch('https://gabrielmurry-portfolio.vercel.app/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            }).then((res) => {
+                console.log('Response received')
+                if (res.status === 200) {
+                    console.log('Response succeeded!')
+                    setName('')
+                    setEmail('')
+                    setSubject('')
+                    setMessage('')
+                    setIsLoading(false)
+                    setIsSent(true)
+                }
+            })
+        } catch (err) {
+            console.log(err)
+        }
+
+        // fetch('http://localhost:3000/api/contact', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Accept': 'application/json, text/plain, */*',
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify(data)
+        // }).then((res) => {
+        //     console.log('Response received')
+        //     if (res.status === 200) {
+        //         console.log('Response succeeded!')
+        //         setName('')
+        //         setEmail('')
+        //         setSubject('')
+        //         setMessage('')
+        //         setIsLoading(false)
+        //         setIsSent(true)
+        //     }
+        // })
 
         // const message = {
         //     to: 'gabrielmurry.work@gmail.com',
