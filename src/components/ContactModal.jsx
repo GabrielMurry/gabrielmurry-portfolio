@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { FaStar, FaTimes } from 'react-icons/fa'
 import BarLoader from "react-spinners/BarLoader";
 
+// const sgMail = require('@sendgrid/mail');
+// sgMail.setApiKey('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')
+
 const ContactModal = ({ onClose }) => {
 
     const [name, setName] = useState('')
@@ -67,6 +70,29 @@ const ContactModal = ({ onClose }) => {
                 setIsSent(true)
             }
         })
+
+        // const message = {
+        //     to: 'gabrielmurry.work@gmail.com',
+        //     from: email,
+        //     subject: subject,
+        //     html: `
+        //     <p><strong>Name:</strong>${name}</p>
+        //     <p>${message}</p>`
+        // }
+        // sgMail
+        //     .send(message)
+        //     .then(() => {
+        //         console.log('Email Sent!')
+        //         setName('')
+        //         setEmail('')
+        //         setSubject('')
+        //         setMessage('')
+        //         setIsLoading(false)
+        //         setIsSent(true)
+        //     })
+        //     .catch((err) => {
+        //         console.error('Error: ', err)
+        //     })
     }
 
     useEffect(() => {
