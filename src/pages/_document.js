@@ -8,6 +8,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
           rel="stylesheet"
         />
+        <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
       </Head>
       <body>
         <Main />

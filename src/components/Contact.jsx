@@ -6,6 +6,9 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import contactImage from '../../public/assets/contact.jpg';
+import { useInView } from 'react-intersection-observer'
+import { useDispatch } from "react-redux";
+import { inViewTrue, inViewFalse } from "../slices/inViewSlice";
 
 const Contact = () => {
     const [name, setName] = useState("")
@@ -14,6 +17,18 @@ const Contact = () => {
     const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
     const [submitted, setSubmitted] = useState(false)
+
+    const { ref, inView } = useInView({ threshold: 0.9 })
+    const dispatch = useDispatch();
+    
+    useEffect(() => {
+        if (inView) {
+            dispatch(inViewTrue('Contact'))
+        }
+        else {
+            dispatch(inViewFalse('Contact'))
+        }
+    }, [inView])
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -56,7 +71,7 @@ const Contact = () => {
     }, [submitted])
 
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contact' ref={ref} className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-[#5394f6]'>
                 Contact

@@ -1,10 +1,25 @@
-import React from 'react'
-import Image from 'next/image'
-import gabrielImage from '../../public/assets/gabriel.jpg'
+// import Image from 'next/image'
+// import gabrielImage from '../../public/assets/gabriel.jpg'
+import { useInView } from 'react-intersection-observer'
+import { useDispatch } from "react-redux";
+import { inViewTrue, inViewFalse } from "../slices/inViewSlice";
+import { useEffect } from 'react';
 
 const About = () => {
+    const { ref, inView } = useInView({ threshold: 0.5 })
+    const dispatch = useDispatch();
+    
+    useEffect(() => {
+      if (inView) {
+          dispatch(inViewTrue('About'))
+      }
+      else {
+          dispatch(inViewFalse('About'))
+      }
+    }, [inView])
+
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' ref={ref} className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5394f6]'>
@@ -26,8 +41,8 @@ const About = () => {
                     When I&apos;m not programming, you can catch me on the wall rock climbing (inside and outside), quenching my thirst and passion for film, and eating at new and local restaurants!
                 </p>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image src={gabrielImage} alt="/" className='rounded-xl' />
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-[#ecf0f3]'>
+                {/* <Image src={gabrielImage} alt="/" className='rounded-xl' /> */}
             </div>
         </div>
     </div>

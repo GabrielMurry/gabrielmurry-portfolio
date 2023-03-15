@@ -21,15 +21,10 @@ export default function (req, res) {
       " | Message: " +
       req.body.message +
       " | Sent from: " +
-      req.body.email +
-      " | Phone Number: " +
-      req.body.phoneNumber,
+      req.body.email,
     html: `${req.body.subject ? `<p>Subject: ${req.body.subject}</p>` : ""}
     <div>${req.body.message}</div>
-    <p>Sent from: ${req.body.email}</p>
-    ${
-      req.body.phoneNumber ? `<p>Phone Number: ${req.body.phoneNumber}</p>` : ""
-    }`,
+    <p>Sent from: ${req.body.email}</p>`,
   };
 
   transporter.sendMail(mailData, function (err, info) {

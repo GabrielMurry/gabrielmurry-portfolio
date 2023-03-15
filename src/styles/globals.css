@@ -1,17 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Corben:wght@400;700&family=DM+Sans:wght@700&family=Exo:wght@900&family=Inter:wght@700&family=Kodchasan:wght@700&family=Krona+One&family=Lato:wght@400;700&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@900&family=Prompt:wght@900&family=Raleway:wght@900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-
-html {
+/* html {
   scroll-behavior: smooth !important;
+} */
+
+.contactModal {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  backdrop-filter: blur(4px);
+}
+
+.contactModal.isVisible {
+  opacity: 1;
 }
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
-    @apply dark:bg-[#0e0a19] dark:text-gray-100;
+    @apply bg-[#ece4dc] text-[#1f2937] tracking-wide;
+    @apply dark:bg-[#233931] dark:text-gray-100;
+  }
+
+  p,
+  li {
+    @apply dark:text-gray-300;
   }
 
   h1,
@@ -21,6 +40,7 @@ html {
   h5,
   h6 {
     @apply font-bold;
+    @apply dark:text-[#8fdcc1];
   }
 
   h1 {

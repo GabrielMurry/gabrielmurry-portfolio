@@ -1,87 +1,99 @@
 import Image from 'next/image'
-import React from 'react'
-import projectManagerImage from '../../public/assets/projects/projectManager.png'
-import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
-import { BsArrowLeft } from 'react-icons/bs'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
-const wordle = () => {
+const projectManagerNew = () => {
+    useEffect(() => {
+        Aos.init({ })
+      }, [])
+
   return (
-    <div className='w-full'>
-        <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-            <Image src={projectManagerImage} alt='/' layout='fill' objectFit='cover' className='absolute z-1' />
-            <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                <h2 className='py-2'>
-                    Project Manager
-                </h2>
-                <h3>
-                    React JS / Node JS / Express JS / MongoDB / GraphQL / Bootstrap CSS / Apollo Client 
-                </h3>
-            </div>
-        </div>
-
-        <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-            <div className='col-span-4'>
-                <h2 className='mb-2'>
-                    Overview
-                </h2>
-                <p>
-                    Developed a project management system to house my past, current, and future project ideas. While this application was created on the MERN stack, my intentions were to understand and include GraphQL and Apollo Client to learn the ins-and-outs of query languages with server-side runtimes as well as state management libraries. I managed CRUD operations through mutations and queries based on Mongoose, MongoDB, and GraphQL schemas. For better user experience, I implemented Apollo&apos;s in-memory cache for immediate response times from already cached queries. This avoids repetitive and redundant network requests. All data, categorized under users and projects, are stored within the same MongoDB database container, but in separate sub-containers. Every user (client) has a client ID, which is referenced under each project. Linking each project to the specific user provides cohesion. It allows for better organization, especially when different users enter their projects. It also provides an efficient way for all user projects to be deleted upon a user deleting their User Account. I continued to hone my frontend UI skills, incorporating a responsive design for both desktop and mobile using Bootstrap CSS. I also understood and implemented more advanced routing techniques, such as React Router Dom&apos;s dynamic page routing system. 
+    <div data-aos='fade-up' data-aos-duration={500} className='w-full h-full px-10 font-nunitoSans flex flex-col items-center'>
+        <div className='w-full h-[20rem] sm:h-[21rem] md:h-[22rem] lg:h-[23rem] xl:h-[24rem] 2xl:h-[25rem] flex flex-col justify-end items-center'>
+            <h1 className='text-[#185533] dark:text-[#8fdcc1] absolute mb-[7.5rem] font-extrabold text-[2.75rem] sm:text-[4.5rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] 2xl:text-[8rem]'>
+                Project Manager
+            </h1>
+            <div className='w-full h-[3rem] mb-12 flex justify-center items-center'>
+                <p className='text-center text-sm md:text-base lg:text-lg text-gray-600'>
+                    React JS &#x2022; Node JS &#x2022; Express JS &#x2022; MondoDB &#x2022; GraphQL &#x2022; Apollo Client &#x2022; Bootstrap CSS
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'>
-                    <a href='https://project-manager-mern.onrender.com/'>
-                        Demo
-                    </a>
-                </button>
-                <button className='px-8 py-2 mt-4'>
-                    <a href="https://github.com/GabrielMurry/project-manager-frontend">
-                        Code
-                    </a>
-                </button>
-                <Link href='/#projects'>
-                    <BsArrowLeft size={60} className='shadow-xl shadow-gray-400 rounded-xl p-4 mt-10' />
-                </Link> 
-            </div>
-            <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
-                <div className='p-2'>  
-                    <p className='text-center font-bold pb-2'>
-                        Technologies
-                    </p>
-                    <div className='grid grid-cols-3 md:grid-cols-1'>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> React JS
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> Node JS
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> Express JS
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> MongoDB
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> Bootstrap CSS
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> Apollo Client
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> Mongoose JS
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> Express GraphQL
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center dark:text-gray-100'>
-                            <RiRadioButtonFill className='pr-1' /> CORS
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
+        <div >
+            <Image priority src='/images/projectManagerImageFigma.svg' alt='wordle' width={1300} height={850} className='rounded-lg shadow-2xl' />
+        </div>
+        <div className='w-full h-full mt-12 flex justify-evenly lg:mt-16 xl:mt-20 md:w-[50%] '>
+            <a href='https://project-manager-mern.onrender.com/' className='text-white bg-[#185533] dark:bg-[#298050] font-semibold outline outline-[#185533] px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
+                Demo
+            </a>
+            <a href='https://github.com/GabrielMurry/project-manager-frontend' className='text-white bg-[#185533] dark:bg-[#298050] font-semibold outline outline-[#185533] px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'> 
+                Code
+            </a>
+        </div>
+        <div className='w-full h-full mt-12 lg:mt-16 xl:mt-20 md:w-[50%]'>
+            <h2 className='text-[#185533] text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px]'>
+                Overview
+            </h2>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                A quick and easy way to organize completed, current, or future project ideas.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                With appealing visuals and a simple UI, users can immediately understand how to add new users and projects, filter projects, and delete users or projects. 
+            </p>
+        </div>
+        <div className='w-full h-full mt-12 lg:mt-16 xl:mt-20 md:w-[50%]'>
+            <h2 className='text-[#185533] text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px]'>
+                Goals
+            </h2>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Build a fullstack project on the MERN stack and implement GraphQL and APollo Client.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Manage CRUD operations through mutations and queries based on Mongoose and GraphQL schemas.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Avoid redundant network requests - Use Apollo's in-memory cache for immediate response to already cached queries without sending another network request.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Implement dynamic page routing using React Router Dom for users to view each project.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Learn Bootstrap CSS for easier and more efficient styling, and implement modals for better user experience.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                When deleting a user, all projects associated with that user ID gets deleted and updated on the home page.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Allow users to filter projects based on status.
+            </p>
+        </div> 
+        <div className='w-full h-full mt-12 lg:mt-16 xl:mt-20 md:w-[50%]'>
+            <h2 className='text-[#185533] text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px]'>
+                Next Steps
+            </h2>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Implement GraphQL's pagination or infinite scroll to load more projects and more users.
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                
+            </p>
+            <p className='mt-3 lg:mt-5 xl:mt-7 text-gray-700 text-[16px] md:text-[18px] lg:text-[20px]'>
+                Advanced filter options by layering multiple filters - projects based on user, start date, and time it took to complete projects.
+            </p>
+        </div>
+        <Link href={'/chess'} className='text-white bg-[#185533] dark:bg-[#298050] px-8 py-5 rounded-full text-center mt-20 lg:mt-24 xl:mt-28 outline outline-[#185533] text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-extrabold transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
+            Chess AI
+        </Link>
     </div>
   )
 }
 
-export default wordle
+export default projectManagerNew
