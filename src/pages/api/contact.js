@@ -1,11 +1,9 @@
 require("dotenv").config();
 // let nodemailer = require("nodemailer");
 const sgMail = require("@sendgrid/mail");
-const API_KEY =
-  "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";
 
 export default async function (req, res) {
-  sgMail.setApiKey(API_KEY);
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const message = {
     to: "gm.portfolio123@gmail.com",
