@@ -23,7 +23,7 @@ function Navbar() {
       setNavBG(currentTheme === 'light' ? 'rgb(255, 255, 255, .6)' : 'rgb(0, 0, 0, .6)')
     }
 
-    setNavRouteBG(currentTheme === 'light' ? 'rgb(255, 255, 255, .8' : 'rgb(220, 220, 220, .2')
+    setNavRouteBG(currentTheme === 'light' ? 'rgb(255, 255, 255, .8)' : 'rgb(220, 220, 220, .2)')
 
     const handleNavBG = () => {
       if (window.scrollY >= 80) {
@@ -40,20 +40,6 @@ function Navbar() {
     }
   }, [systemTheme, theme])
 
-  const renderThemeChanger = () => {
-    const currentTheme = theme === 'system' ? systemTheme : theme
-
-    if (currentTheme === 'dark') {
-      return (
-          <BsMoonStarsFill style={{color: "white"}} onClick={() => setTheme('light')} className='cursor-pointer text-sm md:text-lg' />
-      )
-    }
-    
-    return (
-        <BsMoonStars onClick={() => setTheme('dark')} className='cursor-pointer text-sm md:text-lg' />
-    )
-  }
-
   return (
     <div className='fixed w-screen h-24 z-[100] flex justify-center items-center'>
       <div style={{backgroundColor: `${navBG}`}} className='flex justify-center items-center w-[18rem] md:w-[25rem] h-[60%] rounded-full ease-in-out duration-300 backdrop-blur-lg'>
@@ -63,7 +49,7 @@ function Navbar() {
                   Projects
               </Link>
             </li>
-            <li style={router.asPath === '/about' && theme === 'light' ? {backgroundColor: 'rgb(255, 255, 255, .8'} : router.asPath === '/about' && theme === 'dark' ? {backgroundColor: 'rgb(220, 220, 220, .2'} : {backgroundColor: ''}} className='px-3 md:px-5 py-2 rounded-full flex justify-center items-center'>
+            <li style={router.asPath === '/about' && theme === 'light' ? {backgroundColor: navRouteBG} : router.asPath === '/about' && theme === 'dark' ? {backgroundColor: navRouteBG} : {backgroundColor: ''}} className='px-3 md:px-5 py-2 rounded-full flex justify-center items-center'>
               <Link href='/about'>
                   About
               </Link>
@@ -76,8 +62,14 @@ function Navbar() {
             <li onClick={() => setIsContactModalMounted(true)} className='px-3 md:px-5 py-2 rounded-full flex justify-center items-center'>
                 Contact
             </li>
-            <li className='pr-3 pl-1 md:pr-5 py-2 rounded-full flex justify-center items-center'>
-                {renderThemeChanger()}
+            <li onClick={() => (theme === 'light' ? setTheme('dark') : setTheme('light'))} className='px-3 md:px-4 -ml-2 mr-2 py-2 rounded-full flex justify-center items-center'>
+                {
+                  theme === 'light' 
+                  ? 
+                  <BsMoonStars onClick={() => setTheme('dark')} className='cursor-pointer text-sm md:text-lg' /> 
+                  : 
+                  <BsMoonStarsFill style={{color: "white"}} onClick={() => setTheme('light')} className='cursor-pointer text-sm md:text-lg' />
+                }
             </li>
           </ul>
       </div>

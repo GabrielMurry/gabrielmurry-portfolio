@@ -173,7 +173,7 @@ const about = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-14 lg:mt-16 xl:mt-20 w-full lg:w-[75%] h-full flex flex-col md:grid md:grid-cols-2 md:gap-10'>
+            <div className='mt-14 lg:mt-16 xl:mt-20 w-full md:w-[75%] lg:w-[60%] h-full flex flex-col'>
                 <div className='bg-[#185533] dark:bg-[#298050] relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
                     <div className='w-[85%] h-[60%] absolute z-10 flex justify-between items-center'>
                         <div>
@@ -186,7 +186,7 @@ const about = () => {
                         </div>
                         <div>
                             <h3 className='text-white dark:text-gray-300 text-[16px] md:text-[18px] lg:text-[20px]'>
-                                0.4
+                                0.7
                             </h3>
                         </div>
                     </div>
@@ -198,12 +198,12 @@ const about = () => {
                         {/* fade in rect of text */}
                         <div className='w-full h-full relative flex justify-center items-center px-5 inset-y-20 opacity-0 transition group-hover:delay-100 group-hover:opacity-100 group-hover:duration-500'>
                             <p className='text-white dark:text-gray-300 text-[14px] md:text-[16px] lg:text-[18px]'>
-                                Over the past year, I was a TA for an upper-division advanced macroeconomics course, mentoring over 40 students, tutoring during my office hours, coordinating and leading study sessions, and giving lectures to review important course material. 
+                                Currently mentoring over 40 students within two undergraduate advanced macroeconomics courses. Tutoring students in my scheduled office hours 4 times a week. Hosting two exam review sessions implementing in-depth lectures on all course material, answering questions, and breaking down complex concepts. Also creating two mock exams for student preparation.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#185533] dark:bg-[#298050] mt-5 md:mt-0 relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
+                <div className='bg-[#185533] dark:bg-[#298050] mt-5 lg:mt-8 relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
                     <div className='w-[85%] h-[60%] absolute z-10 flex justify-between items-center'>
                         <div>
                             <h3 className='text-white dark:text-gray-300 text-[16px] md:text-[18px] lg:text-[20px]'>
@@ -232,7 +232,7 @@ const about = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#185533] dark:bg-[#298050] mt-5 relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
+                <div className='bg-[#185533] dark:bg-[#298050] mt-5 lg:mt-8 relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
                     <div className='w-[85%] h-[60%] absolute z-10 flex justify-between items-center'>
                         <div>
                             <h3 className='text-white dark:text-gray-300 text-[16px] md:text-[18px] lg:text-[20px]'>
@@ -261,7 +261,7 @@ const about = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#185533] dark:bg-[#298050] mt-5 relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
+                <div className='bg-[#185533] dark:bg-[#298050] mt-5 lg:mt-8 relative group w-full h-[5rem] rounded-full flex justify-center items-center transition-mb-smooth hover:mb-[18rem] duration-500'>
                     <div className='w-[85%] h-[60%] absolute z-10 flex justify-between items-center'>
                         <div>
                             <h3 className='text-white dark:text-gray-300 text-[16px] md:text-[18px] lg:text-[20px]'>
@@ -285,13 +285,14 @@ const about = () => {
                         {/* fade in rect of text */}
                         <div className='w-full h-[6rem] relative flex justify-center items-center px-5 inset-y-20 opacity-0 transition group-hover:delay-100 group-hover:opacity-100 group-hover:duration-500'>
                             <p className='text-white dark:text-gray-300 text-[14px] md:text-[16px] lg:text-[18px]'>
-                                I was co-lighting designer, spot coordinator and leader, and technician for 5 years at the Harris Center of the Performing Arts. Directed a lighting team to assist with technical preparation and design of stage lights for 4 live shows. Influenced creative ideas on how each scene should be lit with the director.
+                                I was co-lighting designer, spot coordinator and leader, and technician for 5 years at the Harris Center of the Performing Arts. Directed a lighting team to assist with technical preparation and design of stage lights for 4 live shows. Influenced creative ideas on how each scene should be lit with the director. I also organized team meetings to discuss roles and responsibilities, relayed critical information from the director and lighting designers to my team, and fostered a healthy work environment with my team.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='mt-24 lg:mt-28 xl:mt-32 w-full md:w-[50%] h-full p-3 outline outline-[#185533] dark:outline-[#8fdcc1] outline-4 rounded-3xl'>
+            {/* rounded outline not working in safari - must use rounded ring :( */}
+            <div className='mt-24 lg:mt-28 xl:mt-32 w-full md:w-[50%] h-full p-3 ring-4 ring-[#185533] dark:ring-[#8fdcc1] rounded-3xl'>
                 <h2 className='text-[#185533] leading-tight text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px]'>
                     Committed to Equity, Equal Rights, Sustainability, and Inclusivity. 
                 </h2>
@@ -319,7 +320,7 @@ const about = () => {
                     For future projects, I plan to callback to my roots and build a project with C++ on the backend.
                 </p>
             </div>
-            <div className='mt-12 lg:mt-16 xl:mt-20 w-full md:w-[50%] h-full grid grid-cols-3 gap-2'>
+            <div className='bg-blue-400 relative mt-12 lg:mt-16 xl:mt-20 w-full md:w-[50%] grid grid-cols-3 gap-2'>
                 {albums.map((album) => {
                     return <Album image={album.image} name={album.albumName} artist={album.artist} />
                 })}

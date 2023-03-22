@@ -25,10 +25,10 @@ const chessNew = () => {
             <Image priority src='/images/chessImageFigma.svg' alt='wordle' width={800} height={800} className='rounded-lg shadow-2xl' />
         </div>
         <div className='w-full h-full mt-12 flex justify-evenly lg:mt-16 xl:mt-20 md:w-[50%] '>
-            <a href='https://chess-ai-v2.vercel.app' className='text-white bg-[#185533] dark:bg-[#298050] font-semibold outline outline-[#185533] px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
+            <a href='https://chess-ai-v2.vercel.app' className='text-white bg-[#185533] dark:bg-[#298050] font-semibold px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
                 Demo
             </a>
-            <a href='https://github.com/GabrielMurry/Chess_AI_v2' className='text-white bg-[#185533] dark:bg-[#298050] font-semibold outline outline-[#185533] px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'> 
+            <a href='https://github.com/GabrielMurry/Chess_AI_v2' className='text-white bg-[#185533] dark:bg-[#298050] font-semibold px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'> 
                 Code
             </a>
         </div>
@@ -162,7 +162,7 @@ const chessNew = () => {
                 More options for difficulty (AI ELO level), as well as an option to play as the black pieces.
             </p>
         </div>
-        <Link href={'/mapRouter'} className='text-white bg-[#185533] dark:bg-[#298050] px-8 py-5 rounded-full text-center mt-20 lg:mt-24 xl:mt-28 outline outline-[#185533] text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-extrabold transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
+        <Link href={'/mapRouter'} className='text-white bg-[#185533] dark:bg-[#298050] px-8 py-5 rounded-full text-center mt-20 lg:mt-24 xl:mt-28 text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-extrabold transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
             Map Router
         </Link>
     </div>
