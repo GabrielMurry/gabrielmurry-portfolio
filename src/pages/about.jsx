@@ -320,7 +320,7 @@ const about = () => {
                     For future projects, I plan to callback to my roots and build a project with C++ on the backend.
                 </p>
             </div>
-            <div className='bg-blue-400 relative mt-12 lg:mt-16 xl:mt-20 w-full md:w-[50%] grid grid-cols-3 gap-2'>
+            <div className='relative mt-12 lg:mt-16 xl:mt-20 w-full md:w-[50%] grid grid-cols-3 gap-2'>
                 {albums.map((album) => {
                     return <Album image={album.image} name={album.albumName} artist={album.artist} />
                 })}

@@ -64,11 +64,11 @@ function Navbar() {
             </li>
             <li onClick={() => (theme === 'light' ? setTheme('dark') : setTheme('light'))} className='px-3 md:px-4 -ml-2 mr-2 py-2 rounded-full flex justify-center items-center'>
                 {
-                  theme === 'light' 
+                  theme === 'dark' 
                   ? 
-                  <BsMoonStars onClick={() => setTheme('dark')} className='cursor-pointer text-sm md:text-lg' /> 
+                  <BsMoonStarsFill style={{color: "white"}} className='cursor-pointer text-sm md:text-lg' />
                   : 
-                  <BsMoonStarsFill style={{color: "white"}} onClick={() => setTheme('light')} className='cursor-pointer text-sm md:text-lg' />
+                  <BsMoonStars className='cursor-pointer text-sm md:text-lg' /> 
                 }
             </li>
           </ul>
