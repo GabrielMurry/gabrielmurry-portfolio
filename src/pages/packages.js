@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
-import { ImNpm } from "react-icons/im";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const packages = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
+
   return (
     <div className="w-full h-full px-10 font-nunitoSans flex flex-col items-center bg-gradient-radial dark:bg-gradient-radial-dark animate-gradient-x">
       <div className="w-full h-[15rem] md:h-[18.5rem] lg:h-[19.5rem] xl:h-[20.5rem] flex flex-col justify-end items-center">

@@ -90,7 +90,7 @@ function Main() {
                 </div>
             </div>
         </div>
-        <div id="projects" data-aos='fade' data-aos-duration={500} data-aos-delay={500} data-aos-offset={0} className='w-full h-full pt-[9rem] sm:pt-[13rem] md:pt-[10rem] lg:pt-[8rem] overflow-hidden flex flex-col items-center'>
+        <div id="projects" data-aos='fade' data-aos-duration={500} data-aos-delay={500} data-aos-offset={0} className='w-full h-full pt-[9rem] sm:pt-[8rem] md:pt-[6rem] lg:pt-[2.5rem] overflow-hidden flex flex-col items-center'>
             {/* wordle module */}
             <div className='relative w-full h-[20rem] lg:h-[34rem] flex justify-center'>
                 {/* transition-shrink-letter-space hover:tracking-normal duration-500 */}
