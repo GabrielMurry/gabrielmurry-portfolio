@@ -62,7 +62,7 @@ const albumsArray = [
     },
     {
         'image': 'goodKidMaadCity',
-        'albumName': 'good kit, m.A.A.d city',
+        'albumName': 'good kid, m.A.A.d city',
         'artist': 'Kendrick Lamar'
     },
     {

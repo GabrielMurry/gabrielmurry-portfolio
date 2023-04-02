@@ -45,13 +45,13 @@ function Main() {
                 <div className='flex justify-center'>
                     <div className='w-[20rem] sm:w-[95%]'>
                         <p data-aos='fade' data-aos-duration={500} data-aos-delay={200} className='pt-4 text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
-                            Programming and collaborating on projects centering frontend and UI. 
+                            Programming and collaborating on projects centering frontend and backend web development. 
                         </p>
                         <p data-aos='fade' data-aos-duration={500} data-aos-delay={250} className='pt-1 text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
                             Emphasizing accessibility and a user-first approach.
                         </p>
                         <p data-aos='fade' data-aos-duration={500} data-aos-delay={300} className='py-1 text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
-                            Currently learning full-stack development (primarily on the MERN stack) and database management. 
+                            Currently learning full-stack database management. 
                         </p>
                         <span data-aos='fade' data-aos-duration={500} data-aos-delay={350} className='text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
                             This portfolio was built using <a href="https://nextjs.org" className='font-semibold hover:text-white dark:hover:text-gray-700 transition duration-200 ease-in-out group font-inter relative inline-flex overflow-hidden'>
@@ -90,7 +90,7 @@ function Main() {
                 </div>
             </div>
         </div>
-        <div id="projects" data-aos='fade' data-aos-duration={500} data-aos-delay={500} data-aos-offset={0} className='w-full h-full pt-[5rem] sm:pt-[4rem] md:pt-[3rem] lg:pt-[2rem] overflow-hidden flex flex-col items-center'>
+        <div id="projects" data-aos='fade' data-aos-duration={500} data-aos-delay={500} data-aos-offset={0} className='w-full h-full pt-[9rem] sm:pt-[13rem] md:pt-[10rem] lg:pt-[8rem] overflow-hidden flex flex-col items-center'>
             {/* wordle module */}
             <div className='relative w-full h-[20rem] lg:h-[34rem] flex justify-center'>
                 {/* transition-shrink-letter-space hover:tracking-normal duration-500 */}
