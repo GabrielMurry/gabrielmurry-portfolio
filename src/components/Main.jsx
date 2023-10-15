@@ -102,7 +102,7 @@ function Main() {
                     </div>
                     {/* climber's eye image */}
                     <div data-aos='fade' data-aos-duration={500} data-aos-offset={50} data-aos-once={true} className='w-[26rem] h-full absolute sm:relative left-14 sm:left-0 transition ease-in-out group-hover:translate-y-5 duration-500 justify-center flex items-center'>
-                        <Image priority src='/images/climbersEyeLogoShapes.svg' alt='climbers eye logo' width={1300} height={850} className='transition ease-in-out group-hover:translate-y-5 duration-500' />
+                        <Image priority src='/images/climbersEyeLogoShapes.svg' alt='climbers eye logo' width={710} height={60} className='transition ease-in-out group-hover:translate-y-5 duration-500' />
                     </div>
                 </Link>
             </div>
