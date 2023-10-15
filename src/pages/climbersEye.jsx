@@ -22,7 +22,7 @@ const wordleNew = () => {
             </div>
         </div>
         <div>
-            <Image priority src='/images/ClimbersEyeLogoWhiteBackground.svg' alt='wordle' width={1300} height={850} className='rounded-lg shadow-2xl' />
+            <Image priority src='/images/ClimbersEyeLogoWhiteBackground.svg' alt='climbers eye logo' width={1300} height={850} className='rounded-lg shadow-2xl' />
         </div>
         <div className='w-full h-full mt-12 flex justify-evenly lg:mt-16 xl:mt-20 md:w-[50%] '>
             <a href='https://wordle-mern.onrender.com/' className='text-white bg-[#185533] opacity-25 dark:bg-[#298050] font-semibold px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
@@ -191,8 +191,8 @@ const wordleNew = () => {
                 </h2>
                 <div className='space-y-5'>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_1.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_2.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_1.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_2.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
                         <Image priority src='/images/CE_3.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
