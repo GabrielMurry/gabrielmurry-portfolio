@@ -195,88 +195,88 @@ const wordleNew = () => {
                         <Image priority src='/images/CE_2.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_3.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_4.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_3.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_4.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_5.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_6.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_5.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_6.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_7.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_10.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_7.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_10.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_11.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_9.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_11.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_9.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_13.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_14.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_13.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_14.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_15.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_16.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_15.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_16.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_17.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_18.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_17.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_18.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_19.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_20.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_19.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_20.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_21.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_22.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_21.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_22.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_23.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_24.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_23.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_24.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_25.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_26.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_25.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_26.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_27.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_28.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_27.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_28.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_29.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_30.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_29.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_30.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_31.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_32.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_31.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_32.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_33.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_34.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_33.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_34.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_35.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_36.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_35.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_36.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_37.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_38.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_37.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_38.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_39.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_40.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_39.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_40.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_41.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_42.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_41.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_42.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_43.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_44.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_43.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_44.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div>
                     <div className='flex space-x-5'>
-                        <Image priority src='/images/CE_45.png' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
-                        <Image priority src='/images/CE_46.png' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_45.PNG' alt='wordle mobile sign in' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
+                        <Image priority src='/images/CE_46.PNG' alt='wordle mobile' width={175} height={850} unoptimized className='lg:w-[17rem] xl:w-[20rem] rounded-[1.5rem] lg:rounded-[2.75rem] xl:rounded-[3.25rem] shadow-2xl' />
                     </div> 
                 </div>
             </div>
