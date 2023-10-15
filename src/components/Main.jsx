@@ -94,7 +94,7 @@ function Main() {
             {/* climber's eye module */}
             <div className='relative w-full h-[20rem] lg:h-[34rem] flex justify-center'>
                 {/* transition-shrink-letter-space hover:tracking-normal duration-500 */}
-                <Link href={'/climbersEye'} className='bg-[#FAFFF9] transition ease-in-out hover:bg-[#F6FFF4] hover:shadow-2xl duration-500 group absolute w-[20rem] sm:w-[95%] h-full overflow-hidden rounded-3xl lg:rounded-[4rem] flex justify-center'>
+                <Link href={'/climbersEye'} className='bg-[#FFFFFF] transition ease-in-out hover:bg-[#F7FFF7] hover:shadow-2xl duration-500 group absolute w-[20rem] sm:w-[95%] h-full overflow-hidden rounded-3xl lg:rounded-[4rem] flex justify-center'>
                     <div data-aos='fade' data-aos-duration={500} data-aos-once={true} className='absolute w-full flex justify-end'>
                         <span className='font-nunitoSans text-[#364442] font-bold text-[2rem] sm:text-[2.5rem] lg:text-[2.25rem] xl:text-[3rem] mt-12 mr-[1rem] lg:mr-[2rem] sm:tracking-widest sm:mr-[4rem] transition-shrink-letter-space group-hover:tracking-normal duration-500'>
                             Climber's Eye
