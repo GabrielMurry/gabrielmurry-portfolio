@@ -43,7 +43,7 @@ function Main() {
                     </h1>
                 </div>
                 <div className='flex justify-center'>
-                    <div className='w-[20rem] sm:w-[95%]'>
+                    <div className='w-[20rem] sm:w-[98%]'>
                         <p data-aos='fade' data-aos-duration={500} data-aos-delay={200} className='pt-4 text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
                             Programming and collaborating on projects centering frontend and backend web development. 
                         </p>
@@ -51,7 +51,7 @@ function Main() {
                             Emphasizing accessibility and a user-first approach.
                         </p>
                         <p data-aos='fade' data-aos-duration={500} data-aos-delay={300} className='py-1 text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
-                            Currently learning full-stack database management. 
+                            Currently developing Climber's Eye - a full stack mobile app for climbers. 
                         </p>
                         <span data-aos='fade' data-aos-duration={500} data-aos-delay={350} className='text-gray-600 sm:max-w-[70%] m-auto dark:text-gray-100 text-sm sm:text-base md:text-lg font-lato'>
                             This portfolio was built using <a href="https://nextjs.org" className='font-semibold hover:text-white dark:hover:text-gray-700 transition duration-200 ease-in-out group font-inter relative inline-flex overflow-hidden'>
