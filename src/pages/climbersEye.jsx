@@ -17,12 +17,12 @@ const wordleNew = () => {
             </h1>
             <div className='w-full h-[3rem] mb-12 flex justify-center items-center'>
                 <p className='text-sm md:text-base lg:text-lg text-gray-600'>
-                    React Native &#x2022; Django &#x2022; PostgreSQL &#x2022; Amazon S3
+                    React Native &#x2022; Django &#x2022; PostgreSQL &#x2022; Amazon S3 &#x2022; AWS RDS &#x2022; Heroku &#x2022; App Store Connect
                 </p>
             </div>
         </div>
         <div>
-            <Image priority src='/images/ClimbersEyeLogoWhiteBackground.svg' alt='climbers eye logo' width={1300} height={850} className='rounded-lg shadow-2xl' />
+            <Image priority src='/images/climbers-eye-icon-big.png' alt='climbers eye logo' width={800} height={100} className='' />
         </div>
         <div className='w-full h-full mt-12 flex justify-evenly lg:mt-16 xl:mt-20 md:w-[50%] '>
             <a href='https://wordle-mern.onrender.com/' className='text-white bg-[#185533] opacity-25 dark:bg-[#298050] font-semibold px-5 rounded-full text-[30px] md:text-[40px] lg:text-[50px] xl:text-[55px] transition ease-in-out hover:-translate-y-1 hover:shadow-xl duration-300'>
