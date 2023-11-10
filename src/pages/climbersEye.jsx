@@ -182,7 +182,7 @@ const wordleNew = () => {
             </h2>
         </div>
         <div className='mt-3 lg:mt-5 xl:mt-7 w-full'>
-            <Image priority src='/images/wireFrames.svg' alt='wordle' width={2000} height={850} />
+            <Image priority src='/images/wireFrames.png' alt='wordle' width={2000} height={850} />
         </div>
         <div className='w-full h-full mt-12 lg:mt-16 xl:mt-20 flex flex-col items-center'>
             <div className='w-full md:w-[50%] h-full space-y-8'>
